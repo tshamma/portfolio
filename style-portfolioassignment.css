@@ -50,8 +50,7 @@ h2{
 	
 }
 
-p{
+.diversity,.yikyak,.funeral{
 	float: left;
-	padding-left: 300px;
+	width: 200px;
 }
-
