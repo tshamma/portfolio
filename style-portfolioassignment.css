@@ -1,0 +1,68 @@
+.header{
+	width: 1000px;
+	margin: 200px auto 10px 90px;
+}
+
+	h1{
+		font-size: 40px;
+		font-family: "Palatino Linotype";
+		text-shadow: 1px 1px 1px black;
+		margin: 0px;
+	}
+
+	h2{
+		margin: 0px;
+		font-size: 20px;
+		font-family: "Palatino Linotype";
+	}
+
+	.bio{
+		width:1000px;
+		margin-left: 90px;
+		font-family: "Palatino Linotype";
+	}
+
+.h4{
+	margin-left: 90px;
+}
+			.photos{
+				position: relative;
+				width: 1000px;
+				margin-left: 90px;
+			}
+
+				.diversity,.suntrust,.funeral,.bob,.taylor,.tr,.big{
+					position: absolute;
+					float: right;
+					width: 200px;
+				}
+					.suntrust{
+						left: 440px;
+					}
+
+					.funeral{
+						left: 875px;
+					}
+
+					.bob{
+						top: 330px;
+					}
+
+					.big{
+						top: 330px;
+						left: 440px;
+					}
+
+					.tr{
+						top: 330px;
+						left: 875px;
+					}
+
+					
+					.taylor{
+						top: 660px;
+					}
+
+.container{
+	background-color: lightgray;
+}
