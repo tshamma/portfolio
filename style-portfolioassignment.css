@@ -1,6 +1,5 @@
 h1{
 	text-align: center;
-	margin: 100px 0px 50px 0px;
 	font-weight: 200px;
 	font-size: 100px;
 	font-family: "Palatino Linotype";
@@ -9,7 +8,6 @@ h1{
 
 h2{
 		text-align: center;
-		margin: 50px 0px 50px 0px;
 		font-size: 20px;
 		font-weight: 10px;
 		font-family: "Palatino Linotype";
@@ -31,24 +29,37 @@ a:active {
     text-decoration: underline;
 }
 
+.header h3{
+	float:left;
+	padding: 10px;
+}
+
 .header{
-	position: relative;
+	float: right;
 }
-
-.header.resume{
-
-}
-
-
-	.bio{
-		width:1000px;
-		margin-left: 90px;
-		font-family: "Palatino Linotype"
-	}
 
 .h4{
 	margin-left: 90px;
 }
+
+.overlay{
+        width:200px;
+        opacity:0.9;
+        font-size:20px;
+        font-weight:10px;
+        text-align:center;
+        padding:5px;
+        background: url("http://news.wabe.org/post/atlanta-groups-work-bridge-tech-industry-s-diversity-gap") no-repeat;
+     }
+.Tech{
+        opacity:0;
+      }
+.overlay:hover .Tech
+    {
+        opacity:0.9;
+        color:#FFFFFF;
+        font-size:20px;
+    }
 			.photos{
 				position: relative;
 				width: 1000px;
