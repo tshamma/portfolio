@@ -15,6 +15,26 @@ h2{
 		font-family: "Palatino Linotype";
 	}
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.header{
+	float: right;
+}
+
 	.bio{
 		width:1000px;
 		margin-left: 90px;
