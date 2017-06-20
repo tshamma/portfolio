@@ -32,8 +32,13 @@ a:active {
 }
 
 .header{
-	float: right;
+	position: relative;
 }
+
+.header.resume{
+
+}
+
 
 	.bio{
 		width:1000px;
