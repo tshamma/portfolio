@@ -56,7 +56,7 @@ a:active {
 }
 			.photos{
 				position: relative;
-				margin-left: 200px;
+				margin-left: 175px;
 			}
 
 				.yikyak,.att,.diversity,.suntrust,.funeral,.bob,.taylor,.big,.hero{
@@ -111,5 +111,6 @@ p{
 }
 
 .icons{
+	float: left;
 	
 }
