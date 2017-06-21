@@ -56,7 +56,8 @@ a:active {
 }
 			.photos{
 				position: relative;
-				margin-left: 125px;
+				margin-right: 175px;
+				margin-left: 175px;
 			}
 
 				.yikyak,.att,.diversity,.suntrust,.funeral,.bob,.taylor,.big,.hero{
@@ -113,4 +114,25 @@ p{
 .icons{
 	float: left;
 	
+}
+
+html,body{
+    height: 100%
+}
+
+#holder{
+    min-height: 100%;
+    position:relative;
+}
+
+#body{
+    padding-bottom: 100px;    /* height of footer */
+}
+
+footer{
+    height: 100px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
 }
