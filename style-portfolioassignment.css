@@ -6,7 +6,7 @@ h1{
 	text-shadow: 1px 1px 1px black;
 	margin-bottom: -10px;
 	margin-top: 100px;
-	margin-left: 150px;
+	margin-left: 125px;
 }
 
 body{
@@ -16,12 +16,12 @@ body{
 h2{
 		text-align: center;
 		font-size: 20px;
-		font-weight: 10px;
+		color: #3a579b;
 		font-family: "Palatino Linotype";
 }
 
 a{
-	color: darkblue;
+	color: #3a579b;
 	font-family: "Palatino Linotype";
 }
 a:link {
@@ -114,25 +114,4 @@ p{
 .icons{
 	float: left;
 	
-}
-
-html,body{
-    height: 100%
-}
-
-#holder{
-    min-height: 100%;
-    position:relative;
-}
-
-#body{
-    padding-bottom: 100px;    /* height of footer */
-}
-
-footer{
-    height: 100px; 
-    width:100%;
-    position: absolute;
-    left: 0;
-    bottom: 0; 
 }
