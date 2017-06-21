@@ -123,3 +123,8 @@ hr {
     margin-right: 0px;
     border-width: 3px;
 } 
+
+.footer{
+	float:right;
+	margin-top: 1000px;
+}
